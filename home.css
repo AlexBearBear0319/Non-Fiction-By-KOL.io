@@ -21,15 +21,18 @@
     margin-top: 15px;
   }
   
-  nav{
+  .navbar nav{
     flex: l;
     float: right;
+    margin-top: 60px;
   }
-  nav ul{
+
+  .navbar nav ul{
     display: inline;
     list-style-type: none;
   }
-  nav ul li{
+
+  .navbar nav ul li{
     display: inline;
     margin-right: 50px;
     font-size: 18px;
