@@ -46,6 +46,36 @@
     font-family: Verdana, sans-serif;
 }
 
+/*Carousel Part*/
+/* external css: flickity.css */
+
+.carousel {
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 5%;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 500px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+/* cell number */
+.carousel-cell:before {
+    display: block;
+    line-height: 200px;
+}
+
+@media screen and (min-width: 500px) {
+
+    /* half-width cells for larger devices */
+    .carousel-cell {
+        width: 50%;
+    }
+}
+
 
 /*Content Details*/
 
@@ -199,6 +229,7 @@
     .site-footer {
         padding-bottom: 0
     }
+
     .site-footer .copyright-text,
     .site-footer .social-icons {
         text-align: center
